@@ -1,4 +1,4 @@
-# 🌱 Multilingual Seed Phrase Compatibility — Thoughts on BIP39
+# Multilingual Seed Phrase Compatibility — Thoughts on BIP39
 
 If you have been into the bitcoin space — or really even if you haven’t — you may have encountered something that looks close to this, for eg:
 
@@ -22,7 +22,7 @@ It is important to note that the generation of **entropy** is independent of the
 
 ---
 
-## 🔐 Where the Problem Gets Real: Key Derivation
+## Where the Problem Gets Real: Key Derivation
 
 The problem — as mentioned in the title — arises in the generation of keys from this entropy. Key derivation functions need to be computationally intensive in order to be secure, that hashing as much stuff that should be available to the user as possible (at least I think that is what the idea is).
 
@@ -44,7 +44,7 @@ This way even if you are switching to a non-compatible wallet, you just need —
 
 ---
 
-## 🔁 Example Mapping
+## Example Mapping
 ```
 ábaco -> abandon
 abierto -> about
